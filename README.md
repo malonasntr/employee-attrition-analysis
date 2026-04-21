@@ -46,7 +46,7 @@ Dashboard ini terdiri dari dua tampilan utama (dapat disaring berdasarkan status
     >  Visualisasi pie chart menunjukkan dampak signifikan dari rutinitas lembur (OverTime) terhadap attrition
     > Grafik batang mengilustrasikan distribusi attrition berdasarkan Jarak dari Rumah, tingkat Kepuasan Lingkungan Kerja, dan Departemen (R&D memimpin angka resign tertinggi).
 
-Link untuk mengakses dashboard: https://datastudio.google.com/reporting/7ebea1d0-9ee8-4452-b2a1-585fa8dcb85a/page/SCYvF
+Link untuk mengakses dashboard: https://datastudio.google.com/reporting/7ebea1d0-9ee8-4452-b2a1-585fa8dcb85a
 
 ## Conclusion
 Berdasarkan hasil pemodelan Random Forest (akurasi 87,74%) dan analisis dashboard, terdapat lima faktor utama yang memengaruhi tingginya attrition rate di Jaya Jaya Maju:
