@@ -27,10 +27,11 @@ Proyek ini mencakup beberapa tahapan utama:
     > Accuracy, Confusion Matrix, Classification Report (Precision, Recall, F1-score)
 
 ### Persiapan
-Sumber data: https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+Sumber data: [employee_data.csv] (<https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee>)
 
 Setup environment:
 ```
+Python 3.12.13
 pandas==2.2.2
 scikit-learn==1.6.1
 ```
