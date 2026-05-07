@@ -30,16 +30,22 @@ Proyek ini mencakup beberapa tahapan utama:
 Sumber data: [employee_data.csv] (<https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee>)
 
 Setup environment:
-```
-Python 3.12.13
-pandas==2.2.2
-numpy==2.0.2
-scikit-learn==1.6.1
-matplotlib==3.10.0
-seaborn==0.13.2
+## Setup Environment - Anaconda
+conda create --name HR_Sumbission python=3.9
+conda activate HR_Sumbission
 
-Environment:
-Google Colab
+pip install -r requirements.txt
+
+## Run Jupyter Notebook
+jupyter notebook
+
+```
+numpy==2.0.2
+pandas==2.3.3
+matplotlib==3.9.4
+seaborn==0.13.2
+scikit-learn==1.6.1
+jupyter==1.1.1
 ```
 ## Business Dashboard
 Business Dashboard telah dirancang menggunakan Looker Studio untuk memberikan gambaran secara menyeluruh kepada tim HR mengenai demografi karyawan dan faktor risiko attrition.
