@@ -33,9 +33,11 @@ Sumber data: [employee_data.csv] (<https://github.com/dicodingacademy/dicoding_d
 ```
 conda create --name HR_Sumbission python=3.9
 conda activate HR_Sumbission
-
+```
+```
 pip install -r requirements.txt
-
+```
+```
 jupyter notebook
 ```
 
