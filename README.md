@@ -29,15 +29,15 @@ Proyek ini mencakup beberapa tahapan utama:
 ### Persiapan
 Sumber data: [employee_data.csv] (<https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee>)
 
-Setup environment:
 ## Setup Environment - Anaconda
+```
 conda create --name HR_Sumbission python=3.9
 conda activate HR_Sumbission
 
 pip install -r requirements.txt
 
-## Run Jupyter Notebook
 jupyter notebook
+```
 
 ```
 numpy==2.0.2
