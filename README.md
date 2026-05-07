@@ -50,7 +50,11 @@ Dashboard ini terdiri dari dua tampilan utama (dapat disaring berdasarkan status
 Link untuk mengakses dashboard: https://datastudio.google.com/reporting/7ebea1d0-9ee8-4452-b2a1-585fa8dcb85a
 
 ## Conclusion
-Berdasarkan hasil pemodelan Random Forest (akurasi 87,74%) dan analisis dashboard, terdapat lima faktor utama yang memengaruhi tingginya attrition rate di Jaya Jaya Maju:
+Model machine learning menggunakan algoritma Random Forest berhasil memperoleh accuracy sebesar 85,85% dalam memprediksi kemungkinan attrition karyawan.
+- Hasil evaluasi menunjukkan bahwa model memiliki performa yang baik dalam mengenali karyawan yang tidak resign dengan precision sebesar 0,86 dan recall sebesar 0,99. Namun, kemampuan model dalam mendeteksi karyawan yang resign masih terbatas dengan recall sebesar 0,18 sehingga masih terdapat beberapa kasus attrition yang belum terdeteksi secara optimal.
+- Berdasarkan confusion matrix, model berhasil memprediksi 176 karyawan tidak resign dan 6 karyawan resign dengan benar.
+
+Berdasarkan hasil pemodelan Random Forest dan analisis dashboard, terdapat lima faktor utama yang memengaruhi tingginya attrition rate di Jaya Jaya Maju:
 1. Faktor Finansial (Paling Dominan)
     > Variabel seperti MonthlyIncome dan DailyRate menjadi faktor utama. Karyawan dengan kompensasi yang kurang kompetitif cenderung lebih mudah keluar.
 2. Usia dan Pengalaman Kerja
